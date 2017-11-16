@@ -1,0 +1,107 @@
+h1{
+  color: pink;
+  margin-top: 10%;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  text-align: center;
+
+}
+#blurb{
+  /*margin-top: 15%;*/
+  /*text-align: center;*/
+  font-family: sans-serif;
+  font-weight: lighter;
+  text-align:center;
+}
+body {
+  background-color: #fffff0;
+}
+#pinkrect{
+  background-color: pink;
+  height:300px;
+  width :90%;
+  margin: auto;
+  display: block;
+  position: relative;
+}
+#icon1 {
+  position: absolute;
+  margin-top: -9%;
+  margin-left: -5%;
+  width:600px;
+  height:450px;
+  /*text-align: center;*/
+}
+  /*font-family: 'Amatic SC', cursive;*/
+#icon2{
+  position: absolute;
+  margin-top: 3%;
+  margin-left: 40%;
+  width:200px;
+  height:220px;
+}
+#icon3{
+  position:absolute;
+  margin-top: 4%;
+  margin-left: 75%;
+  width:200px;
+  height:200px;
+}
+
+/* start of dropdown css */
+ul{
+  list-style-type: none;
+  margin: 0;
+  top: 0;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 20px;
+  background-color: black;
+  z-index: 10000000;
+}
+ul::after{
+  content: '';
+  clear: both;
+  display: block;
+}
+nav>ul>li {
+  float: left;
+  position: relative;
+}
+a#pink{
+  padding: 15px 70px;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+
+
+}
+a#pink:hover{
+  background-color: #F0C1B6;
+  color: white;
+
+}
+.dropdown{
+  display: inline-block;
+  position: relative;
+
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #F0C1B6;
+  min-width: 240px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin-top:50px;
+
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+
+}
+.dropdown-content a:hover{
+  display: block;
+}
+ /* end of drop down menu css */
