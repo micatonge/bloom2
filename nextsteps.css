@@ -1,0 +1,97 @@
+h2,h1{
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 180%;
+  font-weight: bold;
+}
+h3{
+  font-family: 'Amatic SC', cursive;
+  font-size: 180%;
+  font-weight: bold;
+  /*margin-top: -10%;*/
+}
+h1{
+  margin-top: 10%;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  color: pink;
+  font-size:500%;
+}
+.split{
+font-family: sans-serif;
+column-count: 2;
+column-rule-style: solid;
+column-fill: auto;
+column-gap: 32px;
+margin-left: 3%;
+}
+p{
+  font-family:sans-serif;
+  /*font-size: 1%;*/
+}
+.psteps{
+    font-family: sans-serif;
+    margin-left: 4%;
+    /*font-size: 130%*/
+}
+.textbox{
+text-align: center;
+font-family:sans-serif;
+}
+/* start of dropdown css */
+ul{
+  list-style-type: none;
+  margin: 0;
+  top: 0;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 20px;
+  background-color:black;
+}
+ul::after{
+  content: '';
+  clear: both;
+  display: block;
+}
+nav>ul>li {
+  float: left;
+  position: relative;
+}
+a#pink{
+  padding: 15px 70px;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+
+
+}
+a#pink:hover{
+  background-color:;
+  color: white;
+
+}
+.dropdown{
+  display: inline-block;
+  position: relative;
+
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #F0C1B6;
+  min-width: 240px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin-top:50px;
+  text-align: left;
+
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+
+}
+.dropdown-content a:hover{
+  display: block;
+}
+ /* end of drop down menu css */
